@@ -3,7 +3,7 @@ import pandas as pd
 import unicodedata
 from decimal import Decimal, InvalidOperation
 from io import BytesIO
-
+import xlsxwriter
 st.set_page_config(page_title="Comparador SUS", layout="wide")
 st.title("🩺 Comparador de Profissionais da Saúde (por CNS ou Nome)")
 st.link_button("Baixe os dados aqui (Competência Antiga/Atual)","https://cnes.datasus.gov.br/pages/profissionais/extracao.jsp")
