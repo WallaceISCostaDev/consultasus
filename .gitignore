@@ -1,0 +1,58 @@
+# Diretórios padrão do Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Diretórios e arquivos do ambiente virtual
+venv/
+env/
+ENV/
+.venv/
+*.egg-info/
+*.egg
+*.whl
+pip-wheel-metadata/
+
+# Arquivos de log e temporários
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+.DS_Store
+
+# Arquivos do Jupyter
+.ipynb_checkpoints
+
+# Configs locais do VSCode ou outros editores
+.vscode/
+.idea/
+
+# Arquivos do Streamlit
+.streamlit/config.toml
+.streamlit/credentials.toml
+
+# Cache do Streamlit (usado para upload, etc.)
+.streamlit/cache/
+.streamlit/*_cache/
+**/.streamlit/cache/
+**/.streamlit/*_cache/
+
+# Arquivos de dados locais (opcional, se você gerar CSVs locais)
+*.csv
+*.xlsx
+*.db
+*.sqlite
+
+# Exportações
+*.zip
+*.tar
+*.gz
+
+# Arquivos do sistema
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Arquivos de upload (se não quiser versionar)
+uploads/
